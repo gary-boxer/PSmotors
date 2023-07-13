@@ -1,0 +1,43 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.navbar{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0.5rem ;
+    background-color: #321E1E;
+}
+
+
+.logo{
+height: 3.5rem;
+vertical-align: middle;
+border: 2px solid red;
+border-radius: 20%;
+margin: 0.2rem 0  1rem ;
+
+}
+
+.navbar-list{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-flex;
+    gap: 1rem;
+    margin-top: 24px;
+    
+    justify-content: space-around;
+}
+.left-nav{
+    display: flex;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
